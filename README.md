@@ -1,3 +1,6 @@
+Amazon DynamoDB is a fully managed NoSQL database service that provides fast and predictable performance with seamless scalability. DynamoDB lets you offload the administrative burdens of operating and scaling a distributed database so that you don't have to worry about hardware provisioning, setup and configuration, replication, software patching, or cluster scaling. DynamoDB also offers encryption at rest, which eliminates the operational burden and complexity involved in protecting sensitive data.
+
+
 This Repository is about DynamoDB Best Practices, and how to avoid Throttling on Provisioned and On Demand Tables
 
 Each partition on a DynamoDB table is subject to a hard limit of 1,000 write capacity units and 3,000 read capacity units. If your workload is unevenly distributed across partitions, or if the workload relies on short periods of time with high usage (a burst of read or write activity), the table might be throttled.
